@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <router-view/> <!-- router vue 路由入口 -->
   </div>
 </template>
 

@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
 
 Vue.use(Router)
 
@@ -8,8 +7,18 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'index',
+      // 懒加载方式
+      component: () => import('../views/index'),
+      //  子集嵌套 路由
+      children: [
+        {
+          path: '',
+          name: 'default',
+          // 懒加载方式
+          component: () => import('../views/index')
+        }
+      ]
     }
   ]
 })
