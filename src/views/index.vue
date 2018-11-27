@@ -4,7 +4,7 @@
     <div class="content">
       <ol>
         <div class="content-left box">
-          <li>1</li>
+          <li><a @click="toIndex('/BasicLineChart')">BasicLineChart</a></li>
           <li>2</li>
           <li>3</li>
           <li>4</li>
@@ -24,7 +24,12 @@
 
 <script>
 export default {
-  name: 'index'
+  name: 'index',
+  methods: {
+    toIndex (url) {
+      this.$router.push(url)
+    }
+  }
 }
 </script>
 

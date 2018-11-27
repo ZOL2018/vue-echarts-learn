@@ -1,7 +1,9 @@
+# npm install ...
 1、安装sass的依赖包
 npm install --save-dev sass-loader
 //sass-loader依赖于node-sass
 npm install --save-dev node-sass
+# build - webpack.base.conf.js - rules
 2、在build文件夹下的webpack.base.conf.js的rules里面添加配置
 {
   test: /\.sass$/,
