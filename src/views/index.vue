@@ -5,7 +5,7 @@
       <ol>
         <div class="content-left box">
           <li><a @click="toIndex('/BasicLineChart')">BasicLineChart</a></li>
-          <li>2</li>
+          <li><a @click="toIndex('/BasicAreaChart')">BasicAreaChart</a></li>
           <li>3</li>
           <li>4</li>
           <li>5</li>
@@ -34,16 +34,17 @@ export default {
 </script>
 
 <style scoped lang="scss">
-  .title{
-    font-size: 24px;
-  }
   .content{
     font-size: 16px;
+  }
+  .title{
+    font-size: 24px;
   }
   .content-left{
     float: left;
   }
   .box{
+    text-align: left;
     width: 200px;
   }
 </style>

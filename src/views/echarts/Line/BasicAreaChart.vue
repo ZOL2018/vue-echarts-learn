@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="title">BasicLineChart(default)</div>
-    <div id="BasicLineChart" style="width: 600px;height: 400px">
+    <div class="title">BasicAreaChart</div>
+    <div id="BasicAreaChart" style="width: 600px;height: 400px">
       <v-chart :options="option"/>
     </div>
   </div>
@@ -15,12 +15,13 @@ import 'echarts/lib/chart/line'
  * option 属性 * component #  echarts/lib/component/..
 */
 export default {
-  name: 'BasicLineChart',
+  name: 'BasicAreaChart',
   data () {
     return {
       option: {
         xAxis: {
           type: 'category',
+          boundaryGap: false,
           data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
         },
         yAxis: {
@@ -28,7 +29,8 @@ export default {
         },
         series: [{
           data: [820, 932, 901, 934, 1290, 1330, 1320],
-          type: 'line'
+          type: 'line',
+          areaStyle: {}
         }]
       }
     }

@@ -4,6 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import Vuex from 'vuex'
 import router from './router'
+// import vue-echarts component
+import ECharts from 'vue-echarts/components/ECharts'
+Vue.component('v-chart', ECharts)
 
 Vue.config.productionTip = false
 Vue.use(Vuex)

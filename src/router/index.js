@@ -19,6 +19,16 @@ export default new Router({
           component: () => import('../views/index')
         }
       ]
+    }, {
+      path: '/BasicLineChart',
+      name: 'BasicLineChart',
+      // 懒加载方式
+      component: () => import('../views/echarts/Line/BasicLineChart')
+    }, {
+      path: '/BasicAreaChart',
+      name: 'BasicAreaChart',
+      // 懒加载方式
+      component: () => import('../views/echarts/Line/BasicAreaChart')
     }
   ]
 })
