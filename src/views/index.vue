@@ -1,6 +1,9 @@
 <template>
   <div>
     <div class="title">VUE - ECHARTS - FOR - LEARN </div>
+    <div class="else">
+      <a @click="toIndex('/B')">B</a>
+    </div>
     <div class="content">
       <ol>
         <div class="content-left box">
@@ -39,6 +42,10 @@ export default {
   }
   .title{
     font-size: 24px;
+  }
+  .else{
+    font-size: 14px;
+    color: #ff443a;
   }
   .content-left{
     float: left;

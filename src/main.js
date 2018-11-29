@@ -4,6 +4,8 @@ import Vue from 'vue'
 import App from './App'
 import Vuex from 'vuex'
 import router from './router'
+import store from './store'
+
 // import vue-echarts component
 import ECharts from 'vue-echarts/components/ECharts'
 Vue.component('v-chart', ECharts)
@@ -13,6 +15,7 @@ Vue.use(Vuex)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
+  store,
   router,
   // components: { App },
   // template: '<App/>'

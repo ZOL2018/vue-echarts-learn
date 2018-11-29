@@ -20,6 +20,11 @@ export default new Router({
         }
       ]
     }, {
+      path: '/B',
+      name: 'B',
+      // 懒加载方式
+      component: () => import('../views/vuexStore/B')
+    }, {
       path: '/BasicLineChart',
       name: 'BasicLineChart',
       // 懒加载方式
