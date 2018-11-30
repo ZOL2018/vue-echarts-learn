@@ -2,17 +2,16 @@
   <div>
     <div class="title">VUE - ECHARTS - FOR - LEARN </div>
     <div class="else">
-      <a @click="toIndex('/A')">A</a>
-      <a @click="toIndex('/B')">B</a>
+      <a @click="toIndex('/A')">VUEX-STORE-[A]</a>
+      <a @click="toIndex('/B')">VUEX-STORE-[B]</a>
     </div>
     <div class="content">
       <ol>
         <div class="content-left box">
           <li><a @click="toIndex('/BasicLineChart')">BasicLineChart</a></li>
           <li><a @click="toIndex('/BasicAreaChart')">BasicAreaChart</a></li>
-          <li>3</li>
-          <li>4</li>
-          <li>5</li>
+          <li><a @click="toIndex('/SmoothedLineChart')">SmoothedLineChart</a></li>
+          <li><a @click="toIndex('/StackedAreaChart')">StackedAreaChart</a></li>
         </div>
         <div class="content-left box">
           <li>1</li>
@@ -38,6 +37,23 @@ export default {
 </script>
 
 <style scoped lang="scss">
+  a{
+    cursor: pointer;
+  }
+  a:hover{
+    color: #2c2cff;
+    //背景渐变色
+    //background: linear-gradient(to top right, #2c2cff 10%, #ff282d 50%, #fefefd 100%);
+    //背景渐变色
+    //background: radial-gradient(circle, #CDDC39, #8BC34A);
+    //背景渐变色
+    //background-image: -webkit-gradient(linear, left 0, right 0, from(rgb(4, 94, 170)), to(rgb(1, 152, 216)));
+    //list-style-image: -webkit-gradient(linear, left 0, right 0, from(rgb(4, 94, 170)), to(rgb(1, 152, 216)));
+    // 文字渐变色
+    background-image: -webkit-linear-gradient(bottom, rgb(255, 34, 77), rgb(20, 11, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
   .content{
     font-size: 16px;
   }

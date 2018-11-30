@@ -32,13 +32,23 @@ export default new Router({
     }, {
       path: '/BasicLineChart',
       name: 'BasicLineChart',
-      // 懒加载方式
+      // 懒加载方式+
       component: () => import('../views/echarts/Line/BasicLineChart')
     }, {
       path: '/BasicAreaChart',
       name: 'BasicAreaChart',
       // 懒加载方式
       component: () => import('../views/echarts/Line/BasicAreaChart')
+    }, {
+      path: '/SmoothedLineChart',
+      name: 'SmoothedLineChart',
+      // 懒加载方式
+      component: () => import('../views/echarts/Line/SmoothedLineChart')
+    }, {
+      path: '/StackedAreaChart',
+      name: 'StackedAreaChart',
+      // 懒加载方式
+      component: () => import('../views/echarts/Line/StackedAreaChart')
     }
   ]
 })
