@@ -2,6 +2,7 @@
   <div>
     <div class="title">VUE - ECHARTS - FOR - LEARN </div>
     <div class="else">
+      <a @click="toIndex('/A')">A</a>
       <a @click="toIndex('/B')">B</a>
     </div>
     <div class="content">

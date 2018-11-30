@@ -1,10 +1,19 @@
 <template>
-  <div></div>
+  <div>{{increment}}</div>
 </template>
 
 <script>
 export default {
-  name: 'A'
+  name: 'A',
+  data () {
+    return {
+    }
+  },
+  computed: {
+    increment () {
+      return this.$store.state.mod.count
+    }
+  }
 }
 </script>
 
