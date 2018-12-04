@@ -12,13 +12,10 @@
           <li><a @click="toIndex('/BasicAreaChart')">BasicAreaChart</a></li>
           <li><a @click="toIndex('/SmoothedLineChart')">SmoothedLineChart</a></li>
           <li><a @click="toIndex('/StackedAreaChart')">StackedAreaChart</a></li>
+          <li><a @click="toIndex('/StackedLineChart')">StackedLineChart</a></li>
         </div>
         <div class="content-left box">
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
-          <li>4</li>
-          <li>5</li>
+          <li><a @click="toIndex('/RainFall')">RainFall</a></li>
         </div>
       </ol>
     </div>

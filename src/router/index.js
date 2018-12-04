@@ -49,6 +49,16 @@ export default new Router({
       name: 'StackedAreaChart',
       // 懒加载方式
       component: () => import('../views/echarts/Line/StackedAreaChart')
+    }, {
+      path: '/StackedLineChart',
+      name: 'StackedLineChart',
+      // 懒加载方式
+      component: () => import('../views/echarts/Line/StackedLineChart')
+    }, {
+      path: '/RainFall',
+      name: 'RainFall',
+      // 懒加载方式
+      component: () => import('../views/echarts/Line/RainFall')
     }
   ]
 })
