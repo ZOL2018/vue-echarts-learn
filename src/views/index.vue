@@ -4,6 +4,7 @@
     <div class="else">
       <a @click="toIndex('/A')">VUEX-STORE-[A]</a>
       <a @click="toIndex('/B')">VUEX-STORE-[B]</a>
+      <a @click="toIndex('/AMapChartsA')">js-Map-[AMapChartsA]</a>
     </div>
     <div class="content">
       <ol>

@@ -30,6 +30,11 @@ export default new Router({
       // 懒加载方式
       component: () => import('../views/vuexStore/A')
     }, {
+      path: '/AMapChartsA',
+      name: 'AMapChartsA',
+      // 懒加载方式
+      component: () => import('../views/jsMap/AMapChartsA')
+    }, {
       path: '/BasicLineChart',
       name: 'BasicLineChart',
       // 懒加载方式+
