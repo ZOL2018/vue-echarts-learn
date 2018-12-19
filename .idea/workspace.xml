@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15b6ac87-1719-461e-b818-8569ce80a4df" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/store/plugin/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/plugin/mod2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -84,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/store/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
@@ -92,6 +91,15 @@
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mod2.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/store/plugin/mod2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -143,6 +151,7 @@
         <option value="$PROJECT_DIR$/src/store/plugin/mod.js" />
         <option value="$PROJECT_DIR$/src/views/vuexStore/B.vue" />
         <option value="$PROJECT_DIR$/src/store/index.js" />
+        <option value="$PROJECT_DIR$/src/store/plugin/mod2.js" />
       </list>
     </option>
   </component>
@@ -347,7 +356,7 @@
       <workItem from="1544174784730" duration="1210000" />
       <workItem from="1544429784356" duration="2781000" />
       <workItem from="1544770019165" duration="264000" />
-      <workItem from="1545187703486" duration="1282000" />
+      <workItem from="1545187703486" duration="2191000" />
     </task>
     <task id="LOCAL-00001" summary="vue-router 路由 配置 sass / scss style 语法 配置">
       <created>1542955991256</created>
@@ -405,11 +414,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545188736301</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="vuex success">
+      <created>1545189031084</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1545189031084</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47653000" />
+    <option name="totallyTimeSpent" value="48562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="130" y="80" width="1091" height="748" extended-state="0" />
@@ -419,7 +435,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26623377" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26623377" />
       <window_info id="npm" order="2" sideWeight="0.5202593" side_tool="true" weight="0.2820513" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.2987013" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -477,7 +493,8 @@
     <MESSAGE value="echarts 图例更新 2例[RainFall option 未知错误]" />
     <MESSAGE value="vue-amap configuration setting success" />
     <MESSAGE value="vuex test ascyn success" />
-    <option name="LAST_COMMIT_MESSAGE" value="vuex test ascyn success" />
+    <MESSAGE value="vuex success" />
+    <option name="LAST_COMMIT_MESSAGE" value="vuex success" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -485,13 +502,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -813,6 +823,13 @@
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/plugin/mod2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
     </entry>
