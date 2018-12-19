@@ -1,15 +1,13 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-import mod from './plugin/mod'
+import modules from './plugin'
 import getters from './getters'
 
 Vue.use(Vuex)
 
 const store = new Vuex.Store({
-  modules: {
-    mod
-  },
+  modules,
   getters
 })
 

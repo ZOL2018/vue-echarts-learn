@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15b6ac87-1719-461e-b818-8569ce80a4df" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/store/plugin/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/plugin/mod.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/plugin/mod.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/vuexStore/B.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/vuexStore/B.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,8 +39,8 @@
       <file leaf-file-name="B.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/vuexStore/B.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+            <state relative-caret-position="308">
+              <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -87,8 +87,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/store/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="220">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -284,13 +284,14 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\YIYUN\Project-YIYUN\Project-2018\vue-echarts-learn\src\store\plugin" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\YIYUN\Project-YIYUN\Project-2018\vue-echarts-learn\src\store\plugin" />
       <recent name="D:\YIYUN\Project-YIYUN\Project-2018\vue-echarts-learn\src\views\echarts\Line" />
       <recent name="D:\YIYUN\Project-YIYUN\Project-2018\vue-echarts-learn\src\views\echarts" />
       <recent name="D:\YIYUN\Project-YIYUN\Project-2018\vue-echarts-learn\src\views\vuexStore" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\YIYUN\Project-YIYUN\Project-2018\vue-echarts-learn\src\store\plugin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -346,7 +347,7 @@
       <workItem from="1544174784730" duration="1210000" />
       <workItem from="1544429784356" duration="2781000" />
       <workItem from="1544770019165" duration="264000" />
-      <workItem from="1545187703486" duration="880000" />
+      <workItem from="1545187703486" duration="1282000" />
     </task>
     <task id="LOCAL-00001" summary="vue-router 路由 配置 sass / scss style 语法 配置">
       <created>1542955991256</created>
@@ -397,11 +398,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544432792506</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="vuex test ascyn success">
+      <created>1545188736301</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1545188736301</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47251000" />
+    <option name="totallyTimeSpent" value="47653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="130" y="80" width="1091" height="748" extended-state="0" />
@@ -468,7 +476,8 @@
     <MESSAGE value="echarts 图例更新 2例" />
     <MESSAGE value="echarts 图例更新 2例[RainFall option 未知错误]" />
     <MESSAGE value="vue-amap configuration setting success" />
-    <option name="LAST_COMMIT_MESSAGE" value="vue-amap configuration setting success" />
+    <MESSAGE value="vuex test ascyn success" />
+    <option name="LAST_COMMIT_MESSAGE" value="vuex test ascyn success" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -476,13 +485,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/readMe/安装 vuex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -783,13 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/vuexStore/B.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/store/getters.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -797,10 +792,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/index.js">
+    <entry file="file://$PROJECT_DIR$/src/views/vuexStore/B.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/plugin/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
