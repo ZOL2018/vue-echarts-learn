@@ -20,7 +20,8 @@ export default {
   },
   methods: {
     change () {
-      this.$store.commit('increment')
+      // this.$store.commit('increment')
+      this.$store.dispatch('increment', 2)
       // this.count = this.$store.state.mod.count
     }
   }

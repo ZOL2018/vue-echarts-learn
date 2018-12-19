@@ -3,12 +3,14 @@ const mod = {
     count: 0
   },
   mutations: {
-    increment (state) {
-      state.count++
+    increment (state, val) {
+      state.count += val
     }
   },
   actions: {
-
+    increment ({commit}, val) {
+      commit('increment', val)
+    }
   }
 }
 
